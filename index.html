@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+</head>
+<body>
+    <nav>
+        <div class="mobileNav">
+            <img src="favicon/android-chrome-192x192.png" alt="">
+            <div id="mobileLinks">
+                <a href="#news">O meni_</a>
+                <a href="#contact">Projekti_</a>
+                <a href="#about">Kontakt_</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div id="navContainer">
+            <img src="favicon/favicon-32x32.png" alt="" id="navLogo">
+            <div id="navLinksMiddle">
+                <a href="#aboutSection">O meni_</a>
+                <a href="#workSection">Projekti_</a>
+                <a href="#contactSection">Kontakt_</a>
+            </div>
+            <div id="navLinksRight">
+                <a href="https://github.com/Fante94" target="_blank"><img src="img/gitHub.png" alt=""></a>
+                <a href="https://www.behance.net/stasabastrica" target="_blank"><img src="img/behance.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/stasa-bastrica-68ba571a1/" target="_blank"><img src="img/linkedIn.png" alt=""></a>
+                <a href="https://www.instagram.com/stasa_stricaba/" target="_blank"><img src="img/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1 id="introText" class="wow animate__animated animate__fadeIn" data-wow-duration="2s">Hello world! <br> Ja sam front-end web developer i grafička dizajnerka iz Podgorice, Crna Gora_</h1>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+    </header>
+    <main>
+        <section id="aboutSection">
+            <div id="aboutText">
+                <h1 class="title wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".2s" id="aboutMeTitle">O meni_</h1>
+                <p class="text" id="aboutMeText"><span class="firstLetter">M</span>oje ime je Staša Baštrica. Rodjena sam 1. maja 1994. u Kotoru. Zaljubljenica sam u svijet
+                    kompjuterskih tehnologija i video igrica. Osim bavljenja
+                    muzikom u vidu DJ-inga, puštajući techno, rada u NVO sektoru i aktivističkog djelovanja,
+                    poslednjih godina se samostalno bavim učenjem i
+                    razvijanjem vještina potrebnih za razvoj web-a.
+                </p>
+                <p class="text">Od neophodnih vještina, savladala sam html, css, javascript, kao i korišćenje softvera poput Adobe Photoshop i Adobe Illustrator. Kako sam napredovala u učenju, dobila sam i priliku da radim honorarno za NVO Queer Montenegro na kreiranju vizualnog sadržaja za društvene mreže, kao i kreiranju vizualnih rješenja za logo i merch koje možete pogledati <a class="" href="#">ovdje</a>.</p>
+            </div>
+            <div id="aboutImgContainer">
+                <img src="img/DSC_0054.jpg" alt="" id="aboutImg" class="wow animate__animated animate__fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+            </div>
+        </section>
+        <section class="workContainer" id="workSection">
+            <h1 class="title wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".2s" id="workTitle">Projekti_</h1>
+            <div class="graphicWork">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="cardContainer">
+                                <div class="card" id="card1">
+                                    <img src="img/gassLogo.jpg" alt="">
+                                    <div>
+                                        <h1 class="subTitle">GaSS <br><span class="koalicija">Gay & Strejt Savez</span></h1>
+                                        <p class="text">Primarna ideja se bazira na savezu izmedju strejt i gej srednjoškolaca i srednjoškolki u Crnoj Gori u borbi protiv svake vrste diskriminacije. Koristeći skraćenicu GaSS, došla sam do ideje da vizual za štampu na merch-u kreiram na način što ću iskoristiti jedan od najpoznatijih simbola "gaserske" kulture, a to su "brze"` patike, dodajući im dugu kao element svih različitosti koje ovaj savez predstavlja.</p>
+                                        <button>MORE <i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="cardContainer">
+                                <div class="card" id="card2">
+                                    <img src="img/koalicijaLogo.jpg" alt="">
+                                    <div>
+                                        <h1 class="subTitle">RAVNOPRAVNO <br><span class="koalicija">koalicija za prava LGBTIQ+ osoba</span></h1>
+                                        <p class="text">Kreirajući ovaj logo, najviše sam se fokusirala da komunicira zajednički rad više različitih NVO-a, što sam postigla stvarajući abstraktni krug ljudi različitih boja, izmedju kojih se nalazi kružni oblik koji predstavlja mjesto susreta odakle kreće zajednički rad.</p>
+                                        <button>MORE <i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="cardContainer">
+                                <div class="card" id="card3">
+                                    <img src="img/pms.jpg" alt="">
+                                    <div>
+                                        <h1 class="subTitle">PMS<br><span class="koalicija">(Patrijarhat Mora Stati!)</span></h1>
+                                        <p class="text">Ovim projektom sam započela prvu pripremu za štampu, kreirajući vizuale za blokove i fascikle.</p>
+                                        <button>MORE<i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa-solid fa-angle-left"></i></button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactContainer" id="contactSection">
+            <div class="contact">
+                <div class="contactMe">
+                    <h1 class="title wow animate__animated animate__fadeInDown" data-wow-delay=".2s" data-wow-duration="2s">Kontakt_</h1>
+                    <span class="text wow animate__animated animate__fadeIn" data-wow-delay=".2s" data-wow-duration="2s"><i class="fa-solid fa-phone"></i> +382 67 57 18 68</span>
+                </div>
+                <div class="contactForm">
+                    <form action="#">
+                        <div class="formGroup">
+                            <input type="text" class="fullName" placeholder="IME I PREZIME" required>
+                        </div>
+                        <div class="formGroup">
+                            <input type="email" class="email" placeholder="E-MAIL ADRESA " required>
+                        </div>
+                        <div class="formGroup">
+                            <textarea class="message" name="email" rows="10" required placeholder="PORUKA"></textarea>
+                        </div>
+                        <div class="formGroup">
+                            <input type="submit" value="POŠALJI" class="submitForm">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerImg">
+                <img src="favicon/android-chrome-512x512.png" alt="">
+            </div>
+            <div class="footerContact">
+                <p class="text" id="footerEmail"><i class="fa-solid fa-at"></i> stasabastrica7@gmail.com</p>
+                <p class="text"><i class="fa-solid fa-phone"></i> +382 67 57 18 68</p>
+            </div>
+            <div class="footerSocial">
+                <a href="https://github.com/Fante94" target="_blank"><img src="img/gitHub.png" alt=""></a>
+                <a href="https://www.behance.net/stasabastrica" target="_blank"><img src="img/behance.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/stasa-bastrica-68ba571a1/" target="_blank"><img src="img/linkedIn.png" alt=""></a>
+                <a href="https://www.instagram.com/stasa_stricaba/" target="_blank"><img src="img/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <p class="copy"><i class="fa-solid fa-copyright"></i> 2022 by Staša Baštrica</p>
+    </footer>
+    
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/6994ca724e.js" crossorigin="anonymous"></script>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new Glide('.glide').mount();
+
+        new WOW().init();
+    </script>
+</body>
+</html>
